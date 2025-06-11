@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/game_over_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number Guessing Game - Game Over"
+        android:textSize="18sp"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/game_over_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You've used all your attempts."
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/correct_number_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My number was: "
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/guesses_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your guesses: "
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:maxLines="3"
+        android:ellipsize="end"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Would you like to play again?"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/no_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="#FF5722"
+            android:text="NO"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle,HardcodedText,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/yes_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4CAF50"
+            android:text="YES"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle,HardcodedText,TextContrastCheck" />
+    </LinearLayout>
+
+</LinearLayout>

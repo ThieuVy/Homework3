@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="title_text" type="id" />
+    <item name="selection_container" type="id" />
+    <item name="two_digit_button" type="id" />
+    <item name="three_digit_button" type="id" />
+    <item name="four_digit_button" type="id" />
+    <item name="start_button" type="id" />
+    <item name="game_container" type="id" />
+    <item name="last_guess_text" type="id" />
+    <item name="attempts_text" type="id" />
+    <item name="hint_text" type="id" />
+    <item name="guess_input" type="id" />
+    <item name="game_over_container" type="id" />
+    <item name="game_over_text" type="id" />
+    <item name="attempts_used_text" type="id" />
+    <item name="correct_number_text" type="id" />
+    <item name="guesses_text" type="id" />
+    <item name="no_button" type="id" />
+    <item name="yes_button" type="id" />
+    <item name="game_over_dialog" type="id" />
+</resources>

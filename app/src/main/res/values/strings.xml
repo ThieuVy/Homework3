@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Homework3</string>
+    <string name="app_game_name">Number Guessing Game</string>
+    <string name="game_title">Number guessing game</string>
+    <string name="select_digits_instruction">Please select a number of digits. The number of digits that I keep in my mind and the number of digits you choose will be the same. Also, never forget that you have 10 rights</string>
+    <string name="two_digit">Two Digit Number</string>
+    <string name="three_digit">Three Digit Number</string>
+    <string name="four_digit">Four Digit Number</string>
+    <string name="start">Start</string>
+    <string name="your_last_guess">Your last guess: %s</string>
+    <string name="remaining_attempts">Remaining attempts: %d</string>
+    <string name="enter_guess_hint">Enter your guess</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="congratulations">Congratulations! You\'ve guessed the number!</string>
+    <string name="game_over">Game Over! No more attempts left.</string>
+    <string name="try_bigger">Try a bigger number</string>
+    <string name="try_smaller">Try a smaller number</string>
+    <string name="my_number_was">My number was: %d</string>
+    <string name="your_guesses">Your guesses: %s</string>
+    <string name="play_again_question">Would you like to play again?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
 </resources>
